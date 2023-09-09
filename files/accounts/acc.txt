@@ -1,0 +1,10 @@
+ADMIN//admin//123//admin@gmail.com
+STUDENT//mahmoud//123//mahmoud@gmail.com//e90d3846-4754-4761-9a07-4f68f12c16fb//0.0
+STUDENT//yousif//1234//yousif@gmail.com//818ec761-82df-452c-8348-39af1a288911//10000.0
+TEACHER//amira//123//amira@gmail.com//bca3e8f8-564e-4ddc-9e2c-302e1638ab9e//is
+STUDENT//mohamed//123//mohamed@gmail.com//12abbf31-b53c-4b8c-b76c-d60f3430c581//9500.0
+STUDENT//hamada//123//hamada@gmail.com//b0b5a7e5-65e2-43e9-81eb-0ba3773e65e9//0.0
+STUDENT//yousif//123//yousiff@gmail.com//1324b12e-0085-48d5-a330-731c3ce2c4b0//1000.0
+TEACHER//yasmeen//123//yasmeen@gmail.com//b9d0dfe8-a740-4883-b6bf-4cb325103078//cs
+TEACHER////123//ahmed@gmail.com//caaab553-c993-45d0-bacc-067e95f1961a//cs
+TEACHER//hambola//123//walaa@gmail.com//fdad41e4-48cf-44d2-adfe-78c88fa9c918//cs

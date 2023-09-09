@@ -1,0 +1,14 @@
+Data analytics//3//1500//is//9f155ee2-a2aa-430f-b5f9-b2d7ea0b3c1c
+software testing//3//700//is//bb447ff9-3626-4061-932f-4a38fa8d77e8
+OS//3//2000//cs//e5016188-b398-45df-a683-6efb63a1cd37
+Data structure//3//1500//cs//aa809edf-e9da-47fc-b1e9-34588567fadd
+Algorithms//3//1500//cs//8f1ecbae-8bf4-4bbd-9d07-569ee23b6874
+oop//3//1500//cs//edb975c9-051b-4019-ac87-c8c99bfd87d8
+graphics//3//500//sc//d892d60f-36e4-4a4d-be78-f8082f813d73
+Data//3//2000//cs//ced56f72-2d6b-4900-8c0d-d8e01e233d3d
+GIS//3//1500//is//a1999b3d-acc9-408e-ad03-b5fb930818a8
+Ethical Hacking//2//500//is//8d91a4dd-4b71-477d-8db9-00fcab8a040c
+Math//2//1000//sc//17ce9656-f71c-4a56-a8b9-f7674484d9d6
+Software Engineering//3//500//sc//b1788341-ec05-4248-bfac-d9737f9b80d8
+Ai//2//2000//sc//057e62dc-62fd-44b6-9c8b-64ccb868ac23
+Networks//4//1500//cs//50de5f8c-b34a-4728-a891-858a31bf75a1
