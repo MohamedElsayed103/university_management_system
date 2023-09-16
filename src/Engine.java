@@ -42,10 +42,10 @@ public class Engine {
             switch (choice) {
                 case 1:
 
-                    Login login = new Login();
+                    Login login = Login.getInstance();
                     Account account = login.loginForm(accounts);
                     System.out.println();
-                    if (login.isLogined)
+                    if (login.isLogin)
                     {
                         switch (account.type) {
                             case STUDENT:
@@ -55,30 +55,20 @@ public class Engine {
                                     System.out.println("Choose a number");
                                     System.out.println("1-Register a course");
                                     System.out.println("2-View your courses");
-                                    System.out.println("3-View grades of this semester");
-                                    System.out.println("4-View grades of past semesters");
-                                    System.out.println("5-Request a financial aid");
-                                    System.out.println("6-Log out");
+                                    System.out.println("3-Request a financial aid");
+                                    System.out.println("4-Log out");
                                     int choice1 = input.nextInt();
                                     switch (choice1) {
                                         case 1:
                                             studentController.studentRegisterCourse(courseHashMap, studentCourses, student);
-                                            // readData.writeStudentCourses(studentCourses);
                                             break;
                                         case 2:
                                             studentController.showStudentCourses(courseHashMap, studentCourses, student);
                                             break;
                                         case 3:
-                                            System.out.println("Not implemented yet");
+                                            studentController.studentFinancialAidRequest(requests, student);
                                             break;
                                         case 4:
-                                            System.out.println("Not implemented yet");
-                                            break;
-                                        case 5:
-                                            studentController.studentFinancialAidRequest(requests, student);
-
-                                            break;
-                                        case 6:
                                             back1 = true;
                                             break;
                                     }
@@ -132,8 +122,7 @@ public class Engine {
                                     System.out.println("3-Modify account info");
                                     System.out.println("4-Modify student balance");
                                     System.out.println("5-Explore requests");
-                                    System.out.println("6-Pause the running semester");
-                                    System.out.println("7-Log out");
+                                    System.out.println("6-Log out");
 
                                     int choice3 = input.nextInt();
                                     input.nextLine();
@@ -155,12 +144,8 @@ public class Engine {
                                             break;
                                         case 5:
                                             adminController.adminHandleRequest(requests, accounts);
-                                            //filehandler.writeRequest(requests);
                                             break;
                                         case 6:
-                                            //adminPauseSemester();
-                                            break;
-                                        case 7:
                                             back3=true;
                                             break;
 
@@ -172,7 +157,7 @@ public class Engine {
                     break;
                 case 2:
                         Register register = new Register();
-                        register.signUp(requests);
+                        register.signUp(requests , accounts);
                         filehandler.writeRequest(requests);
 
                     break;

@@ -5,8 +5,12 @@ import java.lang.*;
 public class Login {
 
     Scanner input = new Scanner(System.in);
-    boolean isLogined = false;
-    //ReadData run = new ReadData();
+    boolean isLogin = false;
+    private static Login  login= new Login();
+    private Login(){}
+    public static Login getInstance(){
+        return login;
+    }
     public Account loginForm(HashMap<String, Account> accountsHashMap ) {
         Account account;
         System.out.println("            Login Form          ");
@@ -24,20 +28,20 @@ public class Login {
                 Student student = (Student) account;
                 System.out.println("login successful as a Student");
                 System.out.println("Welcome " + student.name);
-                isLogined = true;
+                isLogin = true;
                 break;
             case TEACHER:
                 Teacher teacher = (Teacher) account;
                 System.out.println("login successful as a Teacher");
                 System.out.println("Welcome " + teacher.name);
-                isLogined = true;
+                isLogin = true;
                 break;
 
             case ADMIN:
                 Admin admin = (Admin) account;
                 System.out.println("login successful as an Admin");
                 System.out.println("Welcome " + admin.name);
-                isLogined = true;
+                isLogin = true;
                 break;
         }
 

@@ -28,7 +28,7 @@ public class AdminController {
 
                     if (type2== Request.RequestType.SIGN_UP) {
                         System.out.println("A student requests to sign up: ");
-                        System.out.println(student1);
+                        System.out.println(student);
                     } else if (type2== Request.RequestType.FINANCIAL_AID) {
                         for (Account account : accountArrayList) {
                             if (account.type == Account.Type.STUDENT) {
